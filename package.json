@@ -1,0 +1,26 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "The JavaScript template",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.2.0",
+    "parcel": "^2.0.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "keywords": [
+    "css",
+    "javascript"
+  ],
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.2.0",
+    "bulma": "^0.9.4",
+    "lit-element": "^4.0.2",
+    "lit-html": "^3.1.0",
+    "vite": "^5.0.2"
+  }
+}
